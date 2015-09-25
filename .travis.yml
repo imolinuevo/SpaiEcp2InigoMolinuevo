@@ -1,0 +1,16 @@
+language: java
+
+jdk:
+  - oraclejdk8
+  
+branches:
+  only:
+    - master
+    - develop
+    
+notifications:
+  email:
+    recipients:
+      - i.m.parron@opendeusto.es
+      
+script: mvn verify
