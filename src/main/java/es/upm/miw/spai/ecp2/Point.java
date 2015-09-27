@@ -4,8 +4,8 @@ public class Point {
     private int x, y;
 
     public Point(int x, int y) {
-        this.x = x;
-        this.y = y;
+        this.x = limita(x);
+        this.y = limita(y);
     }
 
     public Point(int xy) {
@@ -41,5 +41,15 @@ public class Point {
     public String toString() {
         return "Point[" + x + "," + y + "]";
     }
+    
+    public int limita(int t){
+        if(t<-100){
+            return -100;
+        }else if(t>100){
+            return 100;
+        }else{
+            return t;
+        }
+    } 
     
 }
