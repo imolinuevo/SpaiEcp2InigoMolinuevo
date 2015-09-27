@@ -32,4 +32,11 @@ private DecimalCollection coll;
 		assertEquals(3.01, coll.higher(), 0);
 	}
 
+	@Test
+    public void testMenor(){
+    	coll = new DecimalCollection();
+    	coll.add(-3);
+    	coll.add(5);
+	  	assertTrue(coll.menor() == -3);
+	   }
 }
