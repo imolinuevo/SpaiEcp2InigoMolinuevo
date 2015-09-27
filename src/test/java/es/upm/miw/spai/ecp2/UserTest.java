@@ -32,6 +32,11 @@ public class UserTest {
 
 	@Test
 	public void testLowerName(){
-	     assertEquals(usr.loweName(),"pedro");
+	     assertEquals(usr.lowerName(),"pedro");
 	}
+	
+	@Test
+    public void testUpperName(){
+         assertEquals(usr.upperName(),"PEDRO");
+    }
 }

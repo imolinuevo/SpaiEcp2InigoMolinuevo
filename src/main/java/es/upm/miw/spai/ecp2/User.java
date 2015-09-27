@@ -38,7 +38,7 @@ public class User {
         return this.name.substring(0, 1) + ".";
     }
     
-    public String loweName(){
+    public String lowerName(){
         return name.toLowerCase();
     }
     
