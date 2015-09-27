@@ -7,16 +7,20 @@ import org.junit.Test;
 
 public class PointTest {
     private Point pt;
+    private Point pt1;
 
     @Before
     public void before() {
         pt = new Point(2, 3);
+        pt1 = new Point(-101,200);
     }
 
     @Test
     public void testPuntoIntInt() {
         assertEquals(2, pt.getX());
         assertEquals(3, pt.getY());
+        assertEquals(pt1.getX(),-100);
+        assertEquals(pt1.getY(),100);
     }
 
     @Test
