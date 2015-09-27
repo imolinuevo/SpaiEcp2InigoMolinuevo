@@ -58,4 +58,10 @@ public class PointTest {
         assertEquals("Coordenadas del punto: valorX[2], valorY[3]", pt.toString());
     }
 
+    @Test
+    public void testCambiar(){
+        pt.Cambiar(3,4);
+        assertEquals(pt.getX(), 3);
+        assertEquals(pt.getY(), 4);
+    }
 }

@@ -53,4 +53,8 @@ public class Point {
         }
     } 
     
+    public void Cambiar(int newX, int newY){
+        this.x = newX;
+        this.y = newY;
+    }
 }
