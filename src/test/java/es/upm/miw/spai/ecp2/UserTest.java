@@ -32,6 +32,6 @@ public class UserTest {
 
 	@Test
 	public void testLowerName(){
-	     
+	     assertEquals(usr.loweName(),"pedro");
 	}
 }
