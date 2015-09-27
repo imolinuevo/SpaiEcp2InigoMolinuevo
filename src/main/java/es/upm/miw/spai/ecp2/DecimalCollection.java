@@ -44,4 +44,8 @@ public class DecimalCollection {
         	}
     	   	return menor;
     }
+    
+    public int tamano(){
+    	return this.collection.size();
+    }
 }

@@ -39,4 +39,13 @@ private DecimalCollection coll;
     	coll.add(5);
 	  	assertTrue(coll.menor() == -3);
 	   }
+	
+	@Test
+	public void testtamno(){
+		coll = new DecimalCollection();
+    	coll.add(-5);
+    	coll.add(2);
+    	coll.add(6);
+    	assertTrue(coll.tamano() == 3);
+	}
 }
