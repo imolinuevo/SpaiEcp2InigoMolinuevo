@@ -45,7 +45,7 @@ public class PointTest {
 
     @Test
     public void testToString() {
-        assertEquals("Point[2,3]", pt.toString());
+        assertEquals("Coordenadas del punto: valorX[2], valorY[3]", pt.toString());
     }
 
 }

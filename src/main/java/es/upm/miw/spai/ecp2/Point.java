@@ -39,7 +39,7 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point[" + x + "," + y + "]";
+        return "Coordenadas del punto: valorX[" + x + "], valorY[" + y + "]";
     }
-    
+
 }
