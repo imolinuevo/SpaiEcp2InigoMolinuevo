@@ -30,4 +30,8 @@ public class UserTest {
 		assertEquals("P.", usr.initials());
 	}
 
+	@Test
+	public void testLowerName(){
+	     
+	}
 }
