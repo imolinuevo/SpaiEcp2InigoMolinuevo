@@ -41,4 +41,8 @@ public class User {
     public String loweName(){
         return name.toLowerCase();
     }
+    
+    public String upperName(){
+        return name.toUpperCase();
+    }
 }
