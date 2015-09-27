@@ -35,6 +35,12 @@ public class FractionTest {
     @Test
     public void testMenor() {
         Fraction fr1 = new Fraction(1, 9);
-        Assert.assertEquals(fr.menor(fr1), fr);
+        assertEquals(fr.menor(fr1), fr1);
+    }
+
+    @Test
+    public void testMayor() {
+        Fraction fr1 = new Fraction(1, 2);
+        assertEquals(fr.menor(fr1), fr1);
     }
 }

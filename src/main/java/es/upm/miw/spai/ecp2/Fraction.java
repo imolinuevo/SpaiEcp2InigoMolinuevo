@@ -56,10 +56,20 @@ public class Fraction {
     public Fraction menor(Fraction fr1) {
         double res1 = fr1.getNumerator() / fr1.getDenominator();
         double res2 = this.getNumerator() / this.getDenominator();
-        if (res1 < res2) {
-            return fr1;
-        } else {
+        if (res1 > res2) {
             return this;
+        } else {
+            return fr1;
+        }
+    }
+
+    public Fraction mayor(Fraction fr1) {
+        double res1 = fr1.getNumerator() / fr1.getDenominator();
+        double res2 = this.getNumerator() / this.getDenominator();
+        if (res1 < res2) {
+            return this;
+        } else {
+            return fr1;
         }
     }
 
